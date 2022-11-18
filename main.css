@@ -1,0 +1,211 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400&display=swap");
+
+body {
+  margin: 0px;
+  background-color: rgb(246, 220, 228) !important;
+}
+
+.fa-solid {
+  color: pink;
+  padding-left: 30px;
+}
+
+.myNavClass {
+  background-color: rgb(244, 141, 93);
+}
+
+.mb-lg-0 {
+    
+    display: flex;
+    justify-content: space-evenly;
+    width:100%;
+    font-weight: bold;
+    font-family: "Roboto", sans-serif;
+}
+
+.nav-link {
+  color: black;
+  /* margin-left: 100px;
+  margin-right: 100px; */
+}
+
+.home {
+  /* display: grid; */
+  /* grid-auto-columns : auto auto; */
+  height: 94vh;
+  
+  width: 85%;
+  margin: 0 auto;
+
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  align-items: center;
+}
+
+.home-picture {
+  border: solid rgb(0, 0, 0);
+  border-radius: 50%;
+  padding: 0.7rem;
+}
+
+img {
+  width: 35rem;
+}
+
+h1 {
+  font-size: 5pc !important;
+  font-family: "Roboto", sans-serif;
+}
+
+h3 {
+  font-size: 2.5pc !important;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300 !important;
+}
+
+.home-button {
+  background-color: rgb(255, 249, 196);
+  text-decoration: none;
+  color: black;
+  width: 10rem;
+  height: 3rem;
+  border-radius: 8px;
+
+}
+
+.container-fluid {
+
+    width: 85%
+}
+
+.about-me {
+
+  height: 100vh;
+ 
+}
+
+.about-me-title {
+
+  font-family: "Roboto", sans-serif;
+  margin-bottom: 5rem;
+  margin-top: 5rem;
+  text-align: center;
+  
+}
+
+.about-me-text {
+
+  font-family: "Roboto", sans-serif;
+  font-size: 2pc;
+  border: 0.11rem solid black;
+  background-color: rgb(240, 177, 143);
+  padding: 4rem 4rem 4rem 2rem ;
+  margin: auto;
+  width : 70%;
+  box-shadow: -10px 10px   #877179;
+  border-radius: 10px;
+}
+
+.education-button{
+
+  background-color: rgb(255, 249, 196);
+  text-decoration: none;
+  color: black;
+  border-radius: 5px;
+}
+
+.education{
+  height: 100vh;
+  margin-top: 5rem;
+  margin-bottom: 15rem;
+  
+}
+
+.education-title{
+
+  font-family: "Roboto", sans-serif;
+  margin-bottom: 5rem;
+  margin-top: 5rem;
+  text-align: center;
+}
+
+.education-grid {
+
+  margin: 0 auto;
+  max-width: 750px;
+  padding: 25px;
+  display: grid;
+  grid-template-columns: 1fr 3px 1fr ;
+  font-family: "Roboto", sans-serif;
+}
+
+.timeline-component{
+margin: 0 20px 20px 20px;
+
+}
+
+
+.timeline-date-rigth{
+
+  text-align: right;
+}
+
+.timeline-middle{
+  position: relative;
+  background: black;
+}
+
+.timeline-point {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 15px;
+  height: 15px;
+  background: black;
+  border-radius: 50%;
+
+}
+
+.timeline-point-bottom {
+
+  top:initial;
+  bottom: 0;
+}
+
+.timeline-component-bg {
+  padding: 1.5em;
+  background: rgba(255,255,255,0.5);
+  box-shadow: -8px 8px  #877179;
+  /* width: 30rem; */
+  border-radius: 10px;
+  
+}
+.timeline-component-bottom {
+
+  margin-bottom: 0;
+}
+
+
+
+.skills{
+
+   height: 100vh;
+  
+}
+
+.skills-container{
+
+  display: flex;
+  flex-direction: row;
+}
+
+.references{
+
+  height: 100vh;
+}
+ .contact-me {
+
+  height: 100vh;
+ }
